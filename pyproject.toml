@@ -6,10 +6,10 @@ authors = [
     {name = "lexskiies",email = "alexis.cheyy@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.13"
-dependencies = [
-    "pyqt5 (>=5.15.11,<6.0.0)"
-]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+PyQt6 = "^6.9.0"
 
 [tool.poetry]
 packages = [{include = "scans_to_books", from = "src"}]
