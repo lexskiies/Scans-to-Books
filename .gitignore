@@ -48,3 +48,6 @@ Thumbs.db
 
 # Fichiers de documentation
 docs/_build/
+
+# Dossiers générés par l'app
+downloads/
